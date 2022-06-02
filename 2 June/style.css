@@ -1,0 +1,208 @@
+.section1{
+    background-color: rgb(230, 218, 218);
+    display: grid;
+    grid-template-columns: auto auto auto 300px;
+    grid-template-rows: auto auto auto ;
+    
+    grid-gap: 10px;
+    
+}
+body{
+    background-color: beige;
+}
+.box1{
+    /* background-color: rgb(192, 192, 192); */
+    /* width: 300px;
+    height: 300px;
+    padding: 20px; */
+    
+}
+h3{
+    margin-left: 10px;
+}
+.items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* width: 230px; */
+    justify-content: space-evenly;
+    margin-left: 10px;
+    flex-wrap: wrap;
+
+}
+  .smallpics{
+    width: 50px;
+    height: 50px;
+
+} 
+.headphone{
+    padding: 10px;
+}
+.keyboard{
+    padding: 10px;
+}
+.mouse{
+    padding: 10px;
+}
+.chair{
+    padding: 20px;
+}
+.seemore{
+
+    padding: 20px;
+} 
+
+
+
+
+/* =================box2=============== */
+
+
+
+
+.box2{
+    /* background-color: rgb(192, 192, 192); */
+    /* width: 300px;
+    height: 300px;
+    padding: 20px;
+     */
+}
+.items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* width: 230px; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+  .smallpics{
+    width: 50px;
+    height: 50px;
+
+} 
+.headphone{
+    padding: 10px;
+}
+.keyboard{
+    padding: 10px;
+}
+.mouse{
+    padding: 10px;
+}
+.chair{
+    padding: 20px;
+}
+.seemore{
+
+    padding: 20px;
+} 
+
+
+
+
+
+/* =================box3=============== */
+
+
+
+
+
+
+.box3{
+    /* background-color: rgb(138, 132, 132); */
+    /* width: 300px;
+    height: 300px;
+    padding: 20px;
+     */
+}
+.items{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* width: 230px; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+  .smallpics{
+    width: 50px;
+    height: 50px;
+
+} 
+.headphone{
+    padding: 10px;
+}
+.keyboard{
+    padding: 10px;
+}
+.mouse{
+    padding: 10px;
+}
+.chair{
+    padding: 20px;
+}
+.seemore{
+
+    padding: 20px;
+} 
+
+
+
+/* =================box4=============== */
+
+.box4{
+     /* background-color: rgb(255, 255, 255); */
+     width: 300px;
+    height: 300px;
+    padding: 20px;
+     
+}
+.yoga{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-left: 10px;
+    flex-wrap: wrap;}
+
+    #yoga{
+        width: 150px;
+        height: 150px;
+    }
+
+/* =================box5=============== */
+
+.box5{
+    /* background-color: rgb(255, 255, 255); */
+    width: 300px;
+   height: 300px;
+   padding: 20px;
+    
+}
+
+
+#headd{
+    background-color: rgb(246 246 246);
+    height: 100px;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: yellow;
+    border-radius: 50px;
+    text-align: center;
+      padding: 5px 50px;
+      margin: 11px;
+      border: none;
+   
+    color: black;
+}
+/* a{
+    text-decoration: none;
+    color: black;
+   
+} */
+
+/* =================box6=============== */
+.box6{
+    background-color: aqua;
+    color: antiquewhite;
+}
