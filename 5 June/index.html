@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(6, 190px);
+    grid-template-rows: repeat(6, 150px);
+    grid-gap: 40px;
+
+}
+.item1{
+    background-color: rgb(143, 143, 167);
+
+
+}
+.item1{
+    background-color: rgb(59, 235, 138);
+}
+.item2{
+    background-color: rgb(144, 144, 197);
+    grid-row: span 2;
+}
+.item3{
+    background-color: rgb(111, 220, 235);
+}
+.item4{
+    background-color: rgb(211, 80, 19);
+}
+.item5{
+    background-color: rgb(240, 243, 76);
+}
+.item6{
+    background-color: rgb(243, 72, 109);
+    grid-row: span 2;
+}
+.item7{
+    background-color: blue;
+    
+}
+.item8{
+    background-color: rgb(63, 240, 231);
+}
+.item9{
+    background-color: rgb(60, 143, 12);
+}
+.item10{
+    background-color: rgb(29, 122, 165);
+}
+.item11{
+    background-color: rgb(94, 94, 128);
+}
+.item12{
+    background-color: rgb(24, 168, 36);
+}
+#id1{
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">item-1</div>
+        <div class="item2">item-2</div>
+        <div class="item3">item-3</div>
+        <div class="item4">item-4</div>
+        <div class="item6">item-5</div>
+        <div class="item7">item-6</div>
+        <div class="item8">item-7</div>
+        <div class="item9">item-8</div>
+        <div class="item10">item-9</div>
+        <div class="item11">item-10</div>
+        <!-- <div class="item14">item-11</div> -->
+        <!-- <div class="item15">item-12</div>
+        <div class="item16">item-13</div>
+        <div class="item17">item-14</div> -->
+    </div>
+<form action="/action.php">
+    <label for="id1">Full name</label>
+    <input type="text" placeholder="Name "></input>
+<br>
+    <label for="id2">Password</label>
+<input type="password" placeholder="Enter Your Password">
+</form>
+
+</body>
+</html>

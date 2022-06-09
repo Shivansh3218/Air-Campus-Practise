@@ -1,0 +1,46 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(3);
+    grid-gap:10px ;
+}
+
+.item1{
+    background-color: aqua;
+    grid-column: span 6;
+}
+.item2{
+    background-color: rgb(68, 187, 44);
+    grid-column: span 6;
+    grid-template-rows: 6;
+}
+.item3{
+    background-color: rgb(180, 57, 170);
+    /* grid-row: span 2; */
+}
+.item4{
+    background-color: rgb(149, 158, 158);
+    grid-row: span 2;
+}
+.item5{
+    background-color: rgb(43, 255, 0);
+    grid-row: span 2;
+}
+.item6{
+    background-color: rgb(211, 27, 73);
+    grid-row: span 2;
+}
+.item7{
+    background-color: rgb(48, 16, 90);
+    grid-row: span 2;
+}
+.item8{
+    background-color: rgb(251, 255, 23);
+    grid-row: span 2;
+}
+.item9{
+    background-color: rgb(53, 61, 61);
+}
+.item0{
+    background-color: rgb(255, 83, 232);
+}
